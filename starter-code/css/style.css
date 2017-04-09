@@ -1,3 +1,7 @@
+h2 {
+  margin: 0 3.5rem;
+}
+
 input {
   border: solid 1px black;
 }
@@ -10,33 +14,60 @@ input {
 
 }
 
-.item {
+ header {
+   margin: 5% 0 2% 40%;
+   font-size: 30px; 
+   font-weight: bold; 
+  }
+  
+  
+ 
+ .calculate-container {
+   display:flex;
+   justify-content: center;
+   margin: 3% 0 0 0;
+  }
+  
+ 
+ .item {
+   display:flex;
+   align-items: center;
+   width: 80%;
+  }
 
-}
+  .item-field {
+    width: 25%;
+  }
+ 
+ .row {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   margin:1% 0;
+  }
+  
+  .btn {
+      border-color: #CF000F;
+  }
+  
+  #new-item-create {
+    margin-top: -3.5rem;
+  }
 
-.row {
-
-}
-
-.col-xs-2 {
-
-}
-
-.col-xs-3 {
-
-}
-
-.col-xs-5 {
-
-}
-
-.col-xs-4 {
-
-}
-
-.col-xs-7 {
-
-}
+  #first-item-field {
+    margin-left: -.2rem;
+  }
+ .btn-create {
+     color: #000;
+     background-color: #FFF;
+     border: 1px solid #DCDCDC !important;
+ }
+  .quantity {
+    margin: 0 5px;
+  }
+ .error {
+   color: red;
+ }   
 
 .btn {
   display: inline-block;
@@ -66,6 +97,10 @@ input {
     border-color: #4cae4c;
 }
 
+.btn-success p {
+  margin: .5rem auto;
+}
+
 .btn-delete {
     color: #fff;
     background-color: #CF000F;
@@ -75,3 +110,9 @@ input {
 .quantity {
   margin: 0 5px;
 }
+
+footer {
+   margin: 2% 0 0 40%;
+   font-size: 30px; 
+   font-weight: bold; 
+  }
